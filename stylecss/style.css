@@ -1,48 +1,54 @@
+body{
+    color: white;
+}
 header{
     background-color: #2C3E50;
-    height: 100px;
-}
-.container, .container-fluid{
-    border: 3px solid;
 }
 .jumbotron{
     background-color: #1ABC9C;
-    min-height: 500px;
 }
-.title{
-    min-height: 100px;
+.port{
+    color: #333333;
 }
 .bg-brown{
     background-color: #BA4B63;
-    height: 450px;
 }
 .bg-aqua{
     background-color: #1EA4B6;
-    height: 450px;
 }
 .bg-black{
     background-color: #140F0F;
-    height: 450px;
 }
 .bg-azure{
     background-color: #1C83C1;
-    height: 450px;
 }
 .bg-blue{
     background-color: #0E38B5;
-    height: 450px;
 }
 .bg-beige{
     background-color: #CCB2A3;
-    height: 450px;
 }
 .text-main{
     background-color: #1ABC9C;
-    min-height: 500px;
+    min-height: 300px;
 }
 .bg-bluenavy{
+    background-color: #2C3E50;
+}
+footer{
     background-color: #3A546D;
 }
-footer:last-child{
-    background-color: #2C3E50;
+.icons-brand > *{
+    font-size: 2rem;    
+}
+span{
+    color: #1ABC9C;
+}
+.bg-green{
+    background-color: #1ABC9C;
+}
+#contatti .form-control{
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+    padding-left: 0;
 }
